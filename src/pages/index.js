@@ -85,7 +85,7 @@ const IndexPage = () => (
         Dette er starten på bålpulken sin hjemmeside. CICD er satt opp, så det er bare å begynne å utvikle. Miljet er Gatsby - Johannes
       </h1>
       <p className={styles.intro}>
-        <b>Example pages:</b>{" "}
+        <b>Bruk litt av disse Example pages:</b>{" "}
         {samplePageLinks.map((link, i) => (
           <React.Fragment key={link.url}>
             <Link to={link.url}>{link.text}</Link>
